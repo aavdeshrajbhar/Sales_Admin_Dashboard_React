@@ -1,12 +1,10 @@
 import React from 'react'
 
 function TopSellingItem( {item} ) {
-
-    // console.log(item,'is item');
   return (
     <tr>
         <th scope="row">
-        <a href="#">
+        <a href="#"> 
           <img src={item.preview} alt="" />
         </a>
         </th>
